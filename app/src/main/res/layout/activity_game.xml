@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/timer"
+        android:text="00:01:00"
+        android:textSize="54sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/clickButon"
+        android:text="@string/click_it"
+        android:textSize="64sp"
+        android:background="#000088"
+        android:textAllCaps ="false"
+        android:textStyle ="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_centerInParent="true"
+        android:onClick="doClick"
+        android:padding="34dp"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:text="0"
+        android:textSize="74sp"
+        android:textStyle ="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
